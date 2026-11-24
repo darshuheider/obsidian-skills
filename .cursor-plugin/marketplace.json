@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-skills",
+  "owner": {
+    "name": "Obsidian"
+  },
+  "metadata": {
+    "description": "Agent Skills for Obsidian Markdown, Bases, JSON Canvas, the Local REST API, Obsidian Headless, Defuddle, and Knap."
+  },
+  "plugins": [
+    {
+      "name": "obsidian",
+      "source": "./plugins/obsidian",
+      "description": "Work with local Obsidian vaults through the Local REST API plugin and skills for Markdown, Bases, Canvas, Sync and Publish, web extraction, and templates."
+    }
+  ]
+}
