@@ -7,7 +7,7 @@ description: Sync and publish Obsidian vaults from the command line with Obsidia
 
 Use Obsidian Headless (`ob`) to run Obsidian Sync and Obsidian Publish from the command line. It doesn't need the desktop app, so it works on servers, in CI, and in sandboxes. It's in open beta. Docs: https://help.obsidian.md/headless
 
-`ob` only syncs and publishes files. To read or change notes without the app, edit the files directly and follow the obsidian-markdown skill. To control a running desktop app, use the obsidian-cli skill.
+`ob` only syncs and publishes files. To read or change notes, use the obsidian-rest-api skill.
 
 ## Before using ob
 

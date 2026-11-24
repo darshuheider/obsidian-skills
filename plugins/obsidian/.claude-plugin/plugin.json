@@ -1,7 +1,7 @@
 {
   "name": "obsidian",
   "version": "1.2.1",
-  "description": "Work with local Obsidian vaults using the Obsidian CLI and skills for Markdown, Bases, Canvas, Sync and Publish, web extraction, and templates.",
+  "description": "Work with local Obsidian vaults through the Local REST API plugin and skills for Markdown, Bases, Canvas, Sync and Publish, web extraction, and templates.",
   "author": {
     "name": "Obsidian",
     "url": "https://obsidian.md/"

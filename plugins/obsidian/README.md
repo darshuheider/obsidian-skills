@@ -1,6 +1,6 @@
 # Obsidian
 
-Skills for working with Obsidian vaults: Obsidian Markdown, Bases, Canvas, the Obsidian CLI, Obsidian Headless, web pages, and templates.
+Skills for working with Obsidian vaults: Obsidian Markdown, Bases, Canvas, the Local REST API, Obsidian Headless, web pages, and templates.
 
 ## Install
 
@@ -18,7 +18,7 @@ In Grok Bot, add [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845).
 
 ## Requirements
 
-The CLI skill runs the `obsidian` command, which needs the Obsidian desktop app installed, running, and with the CLI turned on. See https://help.obsidian.md/cli for setup. It needs a host that can run local commands, such as Claude Code, Codex, Cursor, or a desktop app session on your computer.
+The REST API skill talks to the [Local REST API plugin](https://github.com/coddingtonbear/obsidian-local-rest-api), which needs the Obsidian desktop app running with the plugin enabled and an API key set in `OBSIDIAN_API_KEY`. It needs a host that can run local commands with `curl` and `python3`, such as Claude Code, Codex, Cursor, or a desktop app session on your computer.
 
 The Markdown, Bases, and Canvas skills only describe file formats, so they also work in chat.
 
@@ -26,7 +26,7 @@ Web extraction uses [Defuddle](https://github.com/kepano/defuddle), which fetche
 
 ## Included skills
 
-- obsidian-cli: search, read, create, and manage notes through the running app.
+- obsidian-rest-api: search, read, create, and edit notes through the Local REST API plugin.
 - obsidian-headless: sync and publish vaults from the command line without the app.
 - obsidian-markdown: Obsidian links, properties, callouts, and embeds.
 - obsidian-bases: Bases files, views, filters, formulas, and summaries.
